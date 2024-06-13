@@ -3,7 +3,15 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Plastic
+  - Paper
+  - Metal
+  - Glass
+  - PlasticTrashcan
+  - PaperTrashcan
+  - MetalTrashcan
+  - GlassTrashcan
   layers:
   - Default
   - TransparentFX
