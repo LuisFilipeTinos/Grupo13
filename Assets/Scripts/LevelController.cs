@@ -18,16 +18,21 @@ public class LevelController : MonoBehaviour
     }
     public IEnumerator BeginLevel()
     {
+        yield return new WaitForSeconds(1f);
+
         readyText.text = "Preparado?";
         readyText.gameObject.SetActive(true);
         yield return new WaitForSeconds(2f);
 
         readyText.gameObject.SetActive(false);
+        yield return new WaitForSeconds(1f);
 
         readyText.text = "Vai!";
         readyText.gameObject.SetActive(true);
         yield return new WaitForSeconds(2f);
 
+        readyText.gameObject.SetActive(false);
+        yield return new WaitForSeconds(1f);
         faderAnimator.Play("FadeOutAnim");
         yield return new WaitForSeconds(0.5f);
         canSpawn = true;
