@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TrashcanController : MonoBehaviour
 {
@@ -8,41 +10,48 @@ public class TrashcanController : MonoBehaviour
     Vector2 cursorPos;
     private Dictionary<string, Dictionary<string, System.Action<GameObject>>> actions;
 
+    [SerializeField] List<Image> lifeImages;
+    int countToGainLife;
+    int lifes;
+
     // Start is called before the first frame update
     void Start()
     {
+        lifes = 3;
+        countToGainLife = 0;
+
         actions = new Dictionary<string, Dictionary<string, System.Action<GameObject>>>()
         {
             { "GlassTrashcan", new Dictionary<string, System.Action<GameObject>>()
                 {
-                    { "Glass", (collisionGameObject) => Destroy(collisionGameObject) },
-                    { "Metal", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
-                    { "Plastic", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
-                    { "Paper", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
+                    { "Glass", (collisionGameObject) => GainHealth(collisionGameObject) },
+                    { "Metal", (collisionGameObject) => LoseHealth(collisionGameObject) },
+                    { "Plastic", (collisionGameObject) => LoseHealth(collisionGameObject) },
+                    { "Paper", (collisionGameObject) => LoseHealth(collisionGameObject) },
                 }
             },
             { "PaperTrashcan", new Dictionary<string, System.Action<GameObject>>()
                 {
-                    { "Glass", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
-                    { "Metal", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
-                    { "Plastic", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
-                    { "Paper", (collisionGameObject) => Destroy(collisionGameObject) },
+                    { "Glass", (collisionGameObject) => LoseHealth(collisionGameObject) },
+                    { "Metal", (collisionGameObject) => LoseHealth(collisionGameObject) },
+                    { "Plastic", (collisionGameObject) => LoseHealth(collisionGameObject) },
+                    { "Paper", (collisionGameObject) => GainHealth(collisionGameObject) },
                 }
             },
             { "PlasticTrashcan", new Dictionary<string, System.Action<GameObject>>()
                 {
-                    { "Glass", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
-                    { "Metal", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
-                    { "Plastic", (collisionGameObject) => Destroy(collisionGameObject) },
-                    { "Paper", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
+                    { "Glass", (collisionGameObject) => LoseHealth(collisionGameObject) },
+                    { "Metal", (collisionGameObject) => LoseHealth(collisionGameObject) },
+                    { "Plastic", (collisionGameObject) => GainHealth(collisionGameObject) },
+                    { "Paper", (collisionGameObject) => LoseHealth(collisionGameObject) },
                 }
             },
             { "MetalTrashcan", new Dictionary<string, System.Action<GameObject>>()
                 {
-                    { "Glass", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
-                    { "Metal", (collisionGameObject) => Destroy(collisionGameObject) },
-                    { "Plastic", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
-                    { "Paper", (collisionGameObject) => { /* Lógica para perder vida e/ou game over */ } },
+                    { "Glass", (collisionGameObject) => LoseHealth(collisionGameObject) },
+                    { "Metal", (collisionGameObject) => GainHealth(collisionGameObject) },
+                    { "Plastic", (collisionGameObject) => LoseHealth(collisionGameObject) },
+                    { "Paper", (collisionGameObject) => LoseHealth(collisionGameObject) },
                 }
             }
         };
@@ -64,5 +73,38 @@ public class TrashcanController : MonoBehaviour
         if (actions.ContainsKey(this.transform.tag) &&
             actions[this.transform.tag].ContainsKey(collision.gameObject.tag))
             actions[this.transform.tag][collision.gameObject.tag](collision.gameObject);
+    }
+
+    private void LoseHealth(GameObject collisionGameObject)
+    {
+        Destroy(collisionGameObject);
+
+        if (lifes > 1)
+        {
+            lifes--;
+            lifeImages.Where(x => x.enabled).LastOrDefault().enabled = false;
+        }
+        else
+        {
+            //Lose logic.
+            Debug.Log("Perdeu");
+        }
+    }
+
+    private void GainHealth(GameObject collisionGameObject)
+    {
+        Destroy(collisionGameObject);
+
+        if (lifes < 3)
+        {
+            countToGainLife++;
+
+            if (countToGainLife == 10)
+            {
+                countToGainLife = 0;
+                lifes++;
+                lifeImages.Where(x => !x.enabled).FirstOrDefault().enabled = true;
+            }
+        }
     }
 }

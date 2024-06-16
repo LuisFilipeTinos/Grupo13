@@ -8,12 +8,20 @@ public class LevelController : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI readyText;
     [SerializeField] Animator faderAnimator;
+
+    [SerializeField] GameObject levelLabel;
+    [SerializeField] GameObject lifeLabel;
+    [SerializeField] GameObject lifeObjects;
+
     public bool canSpawn;
 
     // Start is called before the first frame update
     void Start()
     {
         canSpawn = false;
+        lifeLabel.SetActive(false);
+        levelLabel.SetActive(false);
+        lifeObjects.SetActive(false);
         StartCoroutine(BeginLevel());
     }
     public IEnumerator BeginLevel()
@@ -36,5 +44,9 @@ public class LevelController : MonoBehaviour
         faderAnimator.Play("FadeOutAnim");
         yield return new WaitForSeconds(0.5f);
         canSpawn = true;
+
+        lifeLabel.SetActive(true);
+        levelLabel.SetActive(true);
+        lifeObjects.SetActive(true);
     }
 }
