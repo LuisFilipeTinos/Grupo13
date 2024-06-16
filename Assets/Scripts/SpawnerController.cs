@@ -18,6 +18,8 @@ public class SpawnerController : MonoBehaviour
 
     List<GameObject> listOfPrefabs;
 
+    [SerializeField] LevelController levelController;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,17 +41,20 @@ public class SpawnerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        time += Time.deltaTime;
-        if (time >= maxTime)
+        if (levelController.canSpawn)
         {
-            var randomPos = Random.Range(0, listOfPrefabs.Count);
-            var selectedPrefab = listOfPrefabs[randomPos];
+            time += Time.deltaTime;
+            if (time >= maxTime)
+            {
+                var randomPos = Random.Range(0, listOfPrefabs.Count);
+                var selectedPrefab = listOfPrefabs[randomPos];
 
-            var positionX = Random.Range(xStartLimit, xEndLimit);
+                var positionX = Random.Range(xStartLimit, xEndLimit);
 
-            var instantiatedPrefab = Instantiate(selectedPrefab);
-            instantiatedPrefab.transform.position = new Vector2(positionX, this.transform.position.y);
-            time = 0;
+                var instantiatedPrefab = Instantiate(selectedPrefab);
+                instantiatedPrefab.transform.position = new Vector2(positionX, this.transform.position.y);
+                time = 0;
+            }
         }
     }
 }
