@@ -12,6 +12,7 @@ public class LevelController : MonoBehaviour
     [SerializeField] GameObject levelLabel;
     [SerializeField] GameObject lifeLabel;
     [SerializeField] GameObject lifeObjects;
+    [SerializeField] GameObject timer;
 
     public bool canSpawn;
 
@@ -22,6 +23,7 @@ public class LevelController : MonoBehaviour
         lifeLabel.SetActive(false);
         levelLabel.SetActive(false);
         lifeObjects.SetActive(false);
+        timer.SetActive(false);
         StartCoroutine(BeginLevel());
     }
     public IEnumerator BeginLevel()
@@ -48,5 +50,6 @@ public class LevelController : MonoBehaviour
         lifeLabel.SetActive(true);
         levelLabel.SetActive(true);
         lifeObjects.SetActive(true);
+        timer.SetActive(true);
     }
 }

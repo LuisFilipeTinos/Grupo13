@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class TrashcanController : MonoBehaviour
@@ -75,7 +76,7 @@ public class TrashcanController : MonoBehaviour
             actions[this.transform.tag][collision.gameObject.tag](collision.gameObject);
     }
 
-    private void LoseHealth(GameObject collisionGameObject)
+    public void LoseHealth(GameObject collisionGameObject)
     {
         Destroy(collisionGameObject);
 
@@ -86,12 +87,11 @@ public class TrashcanController : MonoBehaviour
         }
         else
         {
-            //Lose logic.
-            Debug.Log("Perdeu");
+            SceneManager.LoadScene(4);
         }
     }
 
-    private void GainHealth(GameObject collisionGameObject)
+    public void GainHealth(GameObject collisionGameObject)
     {
         Destroy(collisionGameObject);
 
@@ -103,7 +103,7 @@ public class TrashcanController : MonoBehaviour
             {
                 countToGainLife = 0;
                 lifes++;
-                lifeImages.Where(x => !x.enabled).FirstOrDefault().enabled = true;
+                lifeImages.Where(x => !x.enabled).LastOrDefault().enabled = true;
             }
         }
     }

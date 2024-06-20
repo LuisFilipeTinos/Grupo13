@@ -12,6 +12,7 @@ TagManager:
   - PaperTrashcan
   - MetalTrashcan
   - GlassTrashcan
+  - ObjectCollider
   layers:
   - Default
   - TransparentFX

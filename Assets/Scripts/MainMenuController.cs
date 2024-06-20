@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class JogarNovamenteController : MonoBehaviour
+public class MainMenuController : MonoBehaviour
 {
-  public void StartGame()
+    public void LoadLevel()
     {
         SceneManager.LoadScene(5);
     }
