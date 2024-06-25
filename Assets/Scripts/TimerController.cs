@@ -10,10 +10,14 @@ public class TimerController : MonoBehaviour
     float startingTime = 30f;
     TextMeshProUGUI timerText;
     [SerializeField] LevelLoaderController levelLoaderController;
+    AudioSource audioSrcNextLevel;
+    bool canTriggerAudio;
 
     // Start is called before the first frame update
     void Start()
     {
+        canTriggerAudio = true;
+        audioSrcNextLevel = GetComponent<AudioSource>();
         timerText = GetComponent<TextMeshProUGUI>();
         currentTime = startingTime;
     }
@@ -25,6 +29,13 @@ public class TimerController : MonoBehaviour
         timerText.text = currentTime.ToString("0");
 
         if (currentTime <= 0)
+        {
+            if (canTriggerAudio)
+                audioSrcNextLevel.Play();
+
+            canTriggerAudio = false;
             StartCoroutine(levelLoaderController.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+        }
+            
     }
 }

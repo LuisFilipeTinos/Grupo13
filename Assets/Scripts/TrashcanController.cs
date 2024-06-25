@@ -13,6 +13,10 @@ public class TrashcanController : MonoBehaviour
 
     [SerializeField] LevelLoaderController levelLoader;
     [SerializeField] List<GameObject> lifeImages;
+
+    [SerializeField] AudioSource audioSrcCorrect;
+    [SerializeField] AudioSource audioSrcIncorrect;
+
     int countToGainLife;
     int lifes;
 
@@ -79,6 +83,7 @@ public class TrashcanController : MonoBehaviour
 
     public void LoseHealth(GameObject collisionGameObject)
     {
+        audioSrcIncorrect.Play();
         Destroy(collisionGameObject);
 
         if (lifes > 1)
@@ -94,6 +99,7 @@ public class TrashcanController : MonoBehaviour
 
     public void GainHealth(GameObject collisionGameObject)
     {
+        audioSrcCorrect.Play();
         Destroy(collisionGameObject);
 
         if (lifes < 3)
