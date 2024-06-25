@@ -5,8 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class JogarNovamenteController : MonoBehaviour
 {
+    [SerializeField] LevelLoaderController levelLoader;
   public void StartGame()
     {
-        SceneManager.LoadScene(5);
+        StartCoroutine(levelLoader.LoadLevel(5));
     }
 }

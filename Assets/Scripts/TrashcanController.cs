@@ -11,7 +11,8 @@ public class TrashcanController : MonoBehaviour
     Vector2 cursorPos;
     private Dictionary<string, Dictionary<string, System.Action<GameObject>>> actions;
 
-    [SerializeField] List<Image> lifeImages;
+    [SerializeField] LevelLoaderController levelLoader;
+    [SerializeField] List<GameObject> lifeImages;
     int countToGainLife;
     int lifes;
 
@@ -83,11 +84,11 @@ public class TrashcanController : MonoBehaviour
         if (lifes > 1)
         {
             lifes--;
-            lifeImages.Where(x => x.enabled).LastOrDefault().enabled = false;
+            lifeImages.Where(x => x.activeSelf).LastOrDefault().SetActive(false);
         }
         else
         {
-            SceneManager.LoadScene(4);
+            StartCoroutine(levelLoader.LoadLevel(4));
         }
     }
 
@@ -103,7 +104,7 @@ public class TrashcanController : MonoBehaviour
             {
                 countToGainLife = 0;
                 lifes++;
-                lifeImages.Where(x => !x.enabled).LastOrDefault().enabled = true;
+                lifeImages.Where(x => !x.activeSelf).FirstOrDefault().SetActive(true);
             }
         }
     }

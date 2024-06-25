@@ -7,8 +7,9 @@ using UnityEngine.SceneManagement;
 public class TimerController : MonoBehaviour
 {
     float currentTime = 0f;
-    float startingTime = 60f;
+    float startingTime = 30f;
     TextMeshProUGUI timerText;
+    [SerializeField] LevelLoaderController levelLoaderController;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,6 @@ public class TimerController : MonoBehaviour
         timerText.text = currentTime.ToString("0");
 
         if (currentTime <= 0)
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            StartCoroutine(levelLoaderController.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 }

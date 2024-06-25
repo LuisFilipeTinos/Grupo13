@@ -37,7 +37,7 @@ public class LevelController : MonoBehaviour
         readyText.gameObject.SetActive(false);
         yield return new WaitForSeconds(1f);
 
-        readyText.text = "Vai!";
+        readyText.text = "Hora de reciclar!";
         readyText.gameObject.SetActive(true);
         yield return new WaitForSeconds(2f);
 

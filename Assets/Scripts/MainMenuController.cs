@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuController : MonoBehaviour
 {
+
+    [SerializeField] LevelLoaderController levelLoader;
     public void LoadLevel()
     {
-        SceneManager.LoadScene(5);
+        StartCoroutine(levelLoader.LoadLevel(5));
     }
 }

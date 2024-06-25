@@ -120,6 +120,74 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &46108661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.137011
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.44904423
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -10.051109
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3732226046848676745, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187843556186981191, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+      propertyPath: m_Name
+      value: LevelLoader
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+--- !u!114 &46108662 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6812952851841472808, guid: 803c63796b49efc4091dc721bb8fcb45, type: 3}
+  m_PrefabInstance: {fileID: 46108661}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90e51bc608a90c14db24bea5d1f68a3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &107311527
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,7 +1009,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 391984e083ba9664db8d6e337cac5c80, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxTime: 0.5
+  maxTime: 1.2
   xStartLimit: -8.25
   xEndLimit: 8.25
   levelController: {fileID: 1305280979}
@@ -1130,7 +1198,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "N\xEDvel: 2"
+  m_text: "N\xEDvel: 4\nVidro"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1275,10 +1343,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e4424a0fd95536c4cac8382e7c77a394, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoader: {fileID: 46108662}
   lifeImages:
-  - {fileID: 2125466502}
-  - {fileID: 1346759678}
-  - {fileID: 2125466502}
+  - {fileID: 2023527601}
+  - {fileID: 1346759676}
+  - {fileID: 2125466500}
 --- !u!212 &1648561815
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1469,6 +1538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87608cb0d282ac549bd41fbc4776eac7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  levelLoaderController: {fileID: 46108662}
 --- !u!114 &1971020828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1747,3 +1817,4 @@ SceneRoots:
   - {fileID: 107311530}
   - {fileID: 1286940573}
   - {fileID: 1888048949}
+  - {fileID: 46108661}
