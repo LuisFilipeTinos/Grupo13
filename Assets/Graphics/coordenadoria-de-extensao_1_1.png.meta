@@ -1,0 +1,1265 @@
+fileFormatVersion: 2
+guid: eeb4565edff05a2408e529a21635c25c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3971341681082176209
+    second: coordenadoria-de-extensao_1_1_0
+  - first:
+      213: -3623877260157260936
+    second: coordenadoria-de-extensao_1_1_1
+  - first:
+      213: -3345875703722135051
+    second: coordenadoria-de-extensao_1_1_2
+  - first:
+      213: 4223759982292564703
+    second: coordenadoria-de-extensao_1_1_3
+  - first:
+      213: 4800052735094401294
+    second: coordenadoria-de-extensao_1_1_4
+  - first:
+      213: 3997252884869606966
+    second: coordenadoria-de-extensao_1_1_5
+  - first:
+      213: 4422337826928367541
+    second: coordenadoria-de-extensao_1_1_6
+  - first:
+      213: -8086894456202652414
+    second: coordenadoria-de-extensao_1_1_7
+  - first:
+      213: 3020601059505414738
+    second: coordenadoria-de-extensao_1_1_8
+  - first:
+      213: 8380518490337661611
+    second: coordenadoria-de-extensao_1_1_9
+  - first:
+      213: -6251168042592260347
+    second: coordenadoria-de-extensao_1_1_10
+  - first:
+      213: 4187033363112028574
+    second: coordenadoria-de-extensao_1_1_11
+  - first:
+      213: 6616155302579655674
+    second: coordenadoria-de-extensao_1_1_12
+  - first:
+      213: -7359695278493481530
+    second: coordenadoria-de-extensao_1_1_13
+  - first:
+      213: 289691160232880843
+    second: coordenadoria-de-extensao_1_1_14
+  - first:
+      213: 9200109812225470593
+    second: coordenadoria-de-extensao_1_1_15
+  - first:
+      213: -3880955825576703861
+    second: coordenadoria-de-extensao_1_1_16
+  - first:
+      213: -8143289818558625039
+    second: coordenadoria-de-extensao_1_1_17
+  - first:
+      213: 2386349517292873487
+    second: coordenadoria-de-extensao_1_1_18
+  - first:
+      213: 3256058558197084309
+    second: coordenadoria-de-extensao_1_1_19
+  - first:
+      213: 1927146008387936676
+    second: coordenadoria-de-extensao_1_1_20
+  - first:
+      213: 466336308936585433
+    second: coordenadoria-de-extensao_1_1_21
+  - first:
+      213: 3504274312501380705
+    second: coordenadoria-de-extensao_1_1_22
+  - first:
+      213: 1415317369219936155
+    second: coordenadoria-de-extensao_1_1_23
+  - first:
+      213: -244629064584726268
+    second: coordenadoria-de-extensao_1_1_24
+  - first:
+      213: 1580758559914831952
+    second: coordenadoria-de-extensao_1_1_25
+  - first:
+      213: -6435319442320256901
+    second: coordenadoria-de-extensao_1_1_26
+  - first:
+      213: -1251151673411315961
+    second: coordenadoria-de-extensao_1_1_27
+  - first:
+      213: 1384991418050075913
+    second: coordenadoria-de-extensao_1_1_28
+  - first:
+      213: -7238134967697948092
+    second: coordenadoria-de-extensao_1_1_29
+  - first:
+      213: 838775929968073482
+    second: coordenadoria-de-extensao_1_1_30
+  - first:
+      213: 8494955223565814145
+    second: coordenadoria-de-extensao_1_1_31
+  - first:
+      213: 1658560442148919114
+    second: coordenadoria-de-extensao_1_1_32
+  - first:
+      213: -7387127269765769665
+    second: coordenadoria-de-extensao_1_1_33
+  - first:
+      213: -1785036684076061875
+    second: coordenadoria-de-extensao_1_1_34
+  - first:
+      213: -4512497141502320325
+    second: coordenadoria-de-extensao_1_1_35
+  - first:
+      213: -8982576468457973800
+    second: coordenadoria-de-extensao_1_1_36
+  - first:
+      213: -9085852258527069247
+    second: coordenadoria-de-extensao_1_1_37
+  - first:
+      213: -3275605292606943975
+    second: coordenadoria-de-extensao_1_1_38
+  - first:
+      213: -5118660369119674432
+    second: coordenadoria-de-extensao_1_1_39
+  - first:
+      213: -6377390161831750668
+    second: coordenadoria-de-extensao_1_1_40
+  - first:
+      213: -8486230076841621219
+    second: coordenadoria-de-extensao_1_1_41
+  - first:
+      213: 3603283252161590279
+    second: coordenadoria-de-extensao_1_1_42
+  - first:
+      213: -7657135312684294909
+    second: coordenadoria-de-extensao_1_1_43
+  - first:
+      213: 5832648706816344442
+    second: coordenadoria-de-extensao_1_1_44
+  - first:
+      213: 2517084003284148089
+    second: coordenadoria-de-extensao_1_1_45
+  - first:
+      213: -6025112248951533952
+    second: coordenadoria-de-extensao_1_1_46
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2154
+        height: 633
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d21b96c73a0d1730800000000000000
+      internalID: 3971341681082176209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 272
+        width: 79
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87be5bef4d665bdc0800000000000000
+      internalID: -3623877260157260936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 274
+        width: 77
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f1380156cf0191d0800000000000000
+      internalID: -3345875703722135051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_3
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 274
+        width: 28
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdafe01535fcd9a30800000000000000
+      internalID: 4223759982292564703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_4
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 274
+        width: 216
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09a172e7863d9240800000000000000
+      internalID: 4800052735094401294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_5
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 274
+        width: 306
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63eee080258197730800000000000000
+      internalID: 3997252884869606966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_6
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 195
+        width: 9
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b796d2b2dc4f5d30800000000000000
+      internalID: 4422337826928367541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_7
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 337
+        width: 78
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20517f9965495cf80800000000000000
+      internalID: -8086894456202652414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_8
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 337
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2522df7e8a45be920800000000000000
+      internalID: 3020601059505414738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_9
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 337
+        width: 89
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba25b224a259d4470800000000000000
+      internalID: 8380518490337661611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_10
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 339
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fa30e09c36f39a0800000000000000
+      internalID: -6251168042592260347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_11
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 337
+        width: 75
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e99600fe8a45b1a30800000000000000
+      internalID: 4187033363112028574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_12
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 339
+        width: 65
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3d31d913e41db50800000000000000
+      internalID: 6616155302579655674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_13
+      rect:
+        serializedVersion: 2
+        x: 1570
+        y: 339
+        width: 73
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5c646332c1dd990800000000000000
+      internalID: -7359695278493481530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_14
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 337
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca604c4390350400800000000000000
+      internalID: 289691160232880843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_15
+      rect:
+        serializedVersion: 2
+        x: 1745
+        y: 339
+        width: 75
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 180f844412b5daf70800000000000000
+      internalID: 9200109812225470593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_16
+      rect:
+        serializedVersion: 2
+        x: 1825
+        y: 337
+        width: 88
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8884832d33142ac0800000000000000
+      internalID: -3880955825576703861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_17
+      rect:
+        serializedVersion: 2
+        x: 1924
+        y: 339
+        width: 68
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fa02c51e093dfe80800000000000000
+      internalID: -8143289818558625039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_18
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 339
+        width: 13
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f07aa281e340e1120800000000000000
+      internalID: 2386349517292873487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_19
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 339
+        width: 86
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5903531e108df2d20800000000000000
+      internalID: 3256058558197084309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_20
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 285
+        width: 43
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a1664c85199eba10800000000000000
+      internalID: 1927146008387936676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_21
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 197
+        width: 88
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d03808f662c87600800000000000000
+      internalID: 466336308936585433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_22
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 236
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 166cb28bbeea1a030800000000000000
+      internalID: 3504274312501380705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_23
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 236
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f6bcc06a734a310800000000000000
+      internalID: 1415317369219936155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_24
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 236
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409f0bf6927ea9cf0800000000000000
+      internalID: -244629064584726268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_25
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 236
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 050b167f88bffe510800000000000000
+      internalID: 1580758559914831952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_26
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 236
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b701650201721b6a0800000000000000
+      internalID: -6435319442320256901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_27
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 236
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707de229e2403aee0800000000000000
+      internalID: -1251151673411315961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_28
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 236
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90dd6d15b5a783310800000000000000
+      internalID: 1384991418050075913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_29
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 231
+        width: 56
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442c70e989afc8b90800000000000000
+      internalID: -7238134967697948092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_30
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 236
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b15e7a34ee3ab00800000000000000
+      internalID: 838775929968073482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_31
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 236
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1894d7384c424e570800000000000000
+      internalID: 8494955223565814145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_32
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 236
+        width: 38
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a471dc84fe3640710800000000000000
+      internalID: 1658560442148919114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_33
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 236
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f36920703e6ab7990800000000000000
+      internalID: -7387127269765769665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_34
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 236
+        width: 50
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bea96e7964a37e0800000000000000
+      internalID: -1785036684076061875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_35
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 236
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31e9ce02c36061c0800000000000000
+      internalID: -4512497141502320325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_36
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 236
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d797cd2b4a775380800000000000000
+      internalID: -8982576468457973800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_37
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 197
+        width: 76
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cb30d0828198e180800000000000000
+      internalID: -9085852258527069247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_38
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 197
+        width: 62
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d06cd5756ba82d0800000000000000
+      internalID: -3275605292606943975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_39
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 197
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf70cc938dd6f8b0800000000000000
+      internalID: -5118660369119674432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_40
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 197
+        width: 77
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f392f9cf65fe77a0800000000000000
+      internalID: -6377390161831750668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_41
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 197
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d198e9305bada3a80800000000000000
+      internalID: -8486230076841621219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_42
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 197
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 704b43ed60f610230800000000000000
+      internalID: 3603283252161590279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_43
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 197
+        width: 73
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30d5a5a90046cb590800000000000000
+      internalID: -7657135312684294909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_44
+      rect:
+        serializedVersion: 2
+        x: 1635
+        y: 197
+        width: 64
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a710e6d981bb1f050800000000000000
+      internalID: 5832648706816344442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_45
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 197
+        width: 86
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97fd19d909a7ee220800000000000000
+      internalID: 2517084003284148089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coordenadoria-de-extensao_1_1_46
+      rect:
+        serializedVersion: 2
+        x: 1976
+        y: 30
+        width: 148
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e836df450826ca0800000000000000
+      internalID: -6025112248951533952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 1f8f834ad01a780458b3f289d94a4ba9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      coordenadoria-de-extensao_1_1_47: -1768449042
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
