@@ -1434,8 +1434,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Professor Colaborador: Prof. Luis Filipe Grael Tin\xF3s\n\nIntegrantes
-    da equipe: Guilherme Barros de Oliveira, Heitor, Jo\xE3o, Iago de Oliveira Roversi
-    e Renan Floriano Ferrari\n"
+    da equipe: Guilherme Barros de Oliveira, Heitor Lupino, Jo\xE3o Pedro Ferreira,
+    Iago de Oliveira Roversi e Renan Floriano Ferrari\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
